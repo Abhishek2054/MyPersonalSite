@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #8fc0a9;
+    text-align: center;
+}
+h1{
+    color: #66689E;
+}
+h2{
+    color: #485a74;
+}
+/* header section */
+.top_cloud{
+    position: relative;
+    left: 20em;
+    top: 2em;
+}
+.bottom_cloud{
+    position: relative;
+    right: 20em;
+    width: 15em;
+}
+.mountain{
+    opacity: .8;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0em;
+}
+.name{
+    margin: 0px;
+    font-size: 5.3em;
+    font-family: 'Sacramento', cursive;
+}
+.sub_title{
+    color: #525261;
+    margin-top: 0px;
+    font-size: 1.6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line{
+    margin: 3em auto;
+    width: 80%;
+    border-bottom: 2px solid black;
+}
+/* middle section */
+.middle_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo_img{
+    background-color: black;
+    border-radius: 50%;
+    height: 160px;
+    width: 150px;
+}
+/* bottom section */
+.skills{
+    letter-spacing: 1.8px;
+    margin: 0;
+}
+.coder_img{
+    width: 10em;
+    background-color: darkslategrey;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.chilli_img{
+    float: right;
+    width: 10em;
+    margin-left: 20px;
+}
+.img_part_first{
+    width: 60%;
+    margin: 5em auto;
+}
+.img_part_sec{
+    width: 60%;
+    margin: 6em auto;
+}
+.bottom p{
+    text-align: left;
+    line-height: 2;
+}
+
+/* end section */
+.copyright{
+    background-color: rgb(71, 48, 48);
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: rgb(204, 152, 152);
+    margin: 5px 15px;
+}
